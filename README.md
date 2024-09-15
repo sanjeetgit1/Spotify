@@ -10,3 +10,5 @@ Currently, two official plugins are available:
 
 
 53.25 mints time start again
+
+1:26:25 after start
