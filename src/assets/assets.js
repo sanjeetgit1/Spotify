@@ -22,6 +22,7 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
+import img0 from './img0.png'
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
 import img3 from './img3.jpg'
@@ -41,6 +42,7 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song0 from  './song0.mp3'
 
 export const assets = {
     bell_icon,
@@ -115,6 +117,14 @@ export const albumsData = [
 ]
 
 export const songsData = [
+    {
+        id:0,
+        name: "Song One",
+        image: img0,
+        file:song0,
+        desc:"Aarti Shri Hanuman ji Ki",
+        duration:"9:14"
+    },
     {
         id:0,
         name: "Song One",

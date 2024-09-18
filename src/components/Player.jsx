@@ -3,7 +3,7 @@ import { assets, } from "../assets/assets";
 import { PlayerContext } from "../context/PlayerContext";
 
 const Player = () => {
-  const { track, seekBar, seekBg, playStaus, play, pause, time } =
+  const { track, seekBar, seekBg, playStaus, play, pause, time, previous, next, seekSong } =
     useContext(PlayerContext);
   return (
     <div className="flex h-[10%] bg-black  justify-between items-center text-white px-4">
@@ -22,7 +22,7 @@ const Player = () => {
             src={assets.shuffle_icon}
             alt=""
           />
-          <img className=" w-4 cursor-pointer" src={assets.prev_icon} alt="" />
+          <img onClick={previous} className=" w-4 cursor-pointer" src={assets.prev_icon} alt="" />
 
 {playStaus? <img
             onClick={pause}
@@ -37,13 +37,14 @@ const Player = () => {
           />}
           
          
-          <img className=" w-4 cursor-pointer" src={assets.next_icon} alt="" />
+          <img onClick={next} className=" w-4 cursor-pointer" src={assets.next_icon} alt="" />
           <img className=" w-4 cursor-pointer" src={assets.loop_icon} alt="" />
         </div>
         <div className=" flex items-center gap-5">
           <p>{time.currentTime.minute}:{time.currentTime.second}</p>
           <div
             ref={seekBg}
+            onClick={seekSong}
             className=" w-[30vw] max-w-[500] bg-gray-300 rounded-full cursor-pointer"
           >
             <hr
