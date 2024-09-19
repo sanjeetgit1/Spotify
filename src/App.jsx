@@ -10,7 +10,7 @@ const App = () => {
 
   return (
 
-    <div className=' h-screen bg-black text-white'> 
+    <div className=' h-screen bg-black text-white overflow-hidden'> 
     <div className=' h-[90%] flex'>
 <Sidebar/>
   <Display/>
