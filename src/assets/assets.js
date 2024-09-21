@@ -22,12 +22,12 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img0 from './img0.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
+import img0 from './img0.jpg'
+import img1 from './img1.png'
+import img2 from './img2.png'
 import img3 from './img3.jpg'
 import img4 from './img4.jpg'
-import img5 from './img5.jpg'
+import img5 from './img5.png'
 import img6 from './img6.jpg'
 import img7 from './img7.jpg'
 import img8 from './img8.jpg'
@@ -42,6 +42,9 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from  './song4.mp3'
+import song5 from  './song5.mp3'
+import song6 from  './song6.mp3'
 import song0 from  './song0.mp3'
 
 export const assets = {
@@ -117,20 +120,13 @@ export const albumsData = [
 ]
 
 export const songsData = [
-    {
-        id:0,
-        name: "Song One",
-        image: img0,
-        file:song0,
-        desc:"Aarti Shri Hanuman ji Ki",
-        duration:"9:14"
-    },
+   
     {
         id:0,
         name: "Song One",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Yo Yo Honey Singh: MAKHNA Video Song,MAKHNA Song: Yo Yo Honey Singh's      ",
         duration:"3:00"
     },
     {
@@ -138,7 +134,7 @@ export const songsData = [
         name: "Song Two",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Rapper Honey Singh's latest album Glory is out now, song Millionaire trends at No. 1",
         duration:"2:20"
     },
     {
@@ -153,7 +149,7 @@ export const songsData = [
         id:3,
         name: "Song Four",
         image: img4,
-        file:song1,
+        file:song4,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:50"
     },
@@ -161,23 +157,23 @@ export const songsData = [
         id:4,
         name: "Song Five",
         image: img5,
-        file:song2,
+        file:song5,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10"
     },
     {
         id:5,
         name: "Song Six",
-        image: img14    ,
-        file:song3,
+        image: img6    ,
+        file:song6,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
+        name: "Song Six",
+        image: img6,
+        file:song6,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18"
     },
@@ -188,5 +184,13 @@ export const songsData = [
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
-    }
+    },
+    {
+        id:8,
+        name: "Song eight",
+        image: img0,
+        file:song0,
+        desc:"Aarti Shri Hanuman ji Ki",
+        duration:"9:14"
+    },
 ]
