@@ -127,7 +127,7 @@ export const songsData = [
         image: img1,
         file:song1,
         desc:"Yo Yo Honey Singh: MAKHNA Video Song,MAKHNA Song: Yo Yo Honey Singh's      ",
-        duration:"3:00"
+        duration:"2:28"
     },
     {
         id:1,
@@ -135,7 +135,7 @@ export const songsData = [
         image: img2,
         file:song2,
         desc:"Rapper Honey Singh's latest album Glory is out now, song Millionaire trends at No. 1",
-        duration:"2:20"
+        duration:"3:29"
     },
     {
         id:2,
@@ -143,7 +143,7 @@ export const songsData = [
         image: img3,
         file:song3,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        duration:"3:29"
     },
     {
         id:3,
@@ -151,7 +151,7 @@ export const songsData = [
         image: img4,
         file:song4,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        duration:"9:47"
     },
     {
         id:4,
@@ -159,7 +159,7 @@ export const songsData = [
         image: img5,
         file:song5,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        duration:"4:40"
     },
     {
         id:5,
@@ -167,13 +167,13 @@ export const songsData = [
         image: img6    ,
         file:song6,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        duration:"4:40"
     },
     {
         id:6,
-        name: "Song Six",
-        image: img6,
-        file:song6,
+        name: "Song seven",
+        image: img14,
+        file:song3,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18"
     },
@@ -187,7 +187,7 @@ export const songsData = [
     },
     {
         id:8,
-        name: "Song eight",
+        name: "Song Nine",
         image: img0,
         file:song0,
         desc:"Aarti Shri Hanuman ji Ki",
